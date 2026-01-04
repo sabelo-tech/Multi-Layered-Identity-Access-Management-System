@@ -5,12 +5,9 @@
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 ![Cost](https://img.shields.io/badge/Cost-R0-green?style=for-the-badge)
 
-> Enterprise identity and access management solution using Azure AD, RBAC, Conditional Access, and Multi-Factor Authentication
+ Enterprise identity and access management solution using Azure AD, RBAC, Conditional Access, and Multi-Factor Authentication
 
-**Project Type**: Security Implementation  
-**Duration**: 3 weeks  
-**Platform**: Microsoft Azure  
-**Completed**: December 2024
+
 
 
 ---
@@ -48,24 +45,6 @@ Companies moving to the cloud face these identity security problems:
 - ✅ Detects risky sign-ins in 15 minutes (was 48 hours)
 - ✅ New employees get access in 2 minutes (was 2-3 days)
 - ✅ Access automatically removed when someone leaves
-
-### Why This Matters
-
-**Security Impact:**
-- Stops 99.9% of account hacking attempts (Microsoft statistic)
-- Blocks attacks from other countries
-- Catches compromised accounts quickly
-- Reduces insider threat risk
-
-**Business Impact:**
-- Saves R3,750 per month on password resets (75 tickets × R50)
-- Users can reset their own passwords (no waiting)
-- Faster onboarding for new employees
-- Meets compliance requirements (ISO 27001)
-
-**Cost:**
-- Total cost: R0 (used free tier and 30-day trials)
-- Shows I can deliver security without big budgets
 
 ---
 ## 📅 Three-Week Implementation
@@ -105,10 +84,64 @@ Companies moving to the cloud face these identity security problems:
 **Key achievement:**
 - Reduced over-privileged accounts from 28 to 5 (82% improvement)
 - Finance team can now see all resources without risk of deleting anything
+- 
+<h2>Week 1 Program walk-through:</h2>
 
-**Files created:**
-- [Week 1 detailed notes](./Week1-Foundation/README.md)
-- [RBAC assignment table](./Week1-Foundation/documentation/rbac-assignment-matrix.md)
+<p align="center">
+1.Verify subscription: <br/>
+<img src="https://i.imgur.com/SugwT2I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+2.verify role:  <br/>
+<img src="https://i.imgur.com/4jaIdNu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.1 User 001: <br/>
+<img src="https://i.imgur.com/YDvtpi5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.2 User 002:  <br/>
+<img src="https://i.imgur.com/BHgpyH1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.3 User 003:  <br/>
+<img src="https://i.imgur.com/O3n46yf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.4 User 004:  <br/>
+<img src="https://i.imgur.com/ZtuqOX8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.5 User 005:  <br/>
+<img src="https://i.imgur.com/77eItyw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+ 3.6 User 006: <br/>
+<img src="https://i.imgur.com/9kq9igy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.7 User 007:  <br/>
+<img src="https://i.imgur.com/dUZCtY3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.8 User 008: <br/>
+<img src="https://i.imgur.com/XNiZwf7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.9 User 009:  <br/>
+<img src="https://i.imgur.com/A9epaKq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.10 Global Admin:  <br/>
+<img src="https://i.imgur.com/kclsA85.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.11 Sec Admin 001:  <br/>
+<img src="https://i.imgur.com/wv31dvl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+3.12 Sec Admin 002:  <br/>
+<img src="https://i.imgur.com/WsC5rvi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 
 ---
 
