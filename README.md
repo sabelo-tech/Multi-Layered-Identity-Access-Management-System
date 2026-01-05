@@ -141,13 +141,91 @@ Companies moving to the cloud face these identity security problems:
 <br />
 3.12 Sec Admin 002:  <br/>
 <img src="https://i.imgur.com/WsC5rvi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+4.1 Creating IT Department Group 01:  <br/>
+<img src="https://i.imgur.com/4W1ucY4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.2 Creating Finance Department Group: <br/>
+<img src="https://i.imgur.com/h7vFIdF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.3 Creating HR Department Group:  <br/>
+<img src="https://i.imgur.com/wLItg4g.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.4 Creating Operations Department Group:  <br/>
+<img src="https://I.imgur.com/bcc72yL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.5 Creating Security Department Group:  <br/>
+<img src="https://i.imgur.com/FPkZe90.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.6 Creating Priviledged Administrators Group:  <br/>
+<img src="https://i.imgur.com/NYmcs2e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+4.7 Creating Developers Department Group: <br/>
+<img src="https://i.imgur.com/CfAvlbl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.8 Creating VPN Access Group:  <br/>
+<img src="https://i.imgur.com/67kSmII.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+4.9 Verify all groups created: <br/>
+<img src="https://i.imgur.com/VW34KRM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.1 Creating Production Resource Group:  <br/>
+<img src="https://i.imgur.com/pPArxfX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.2 Creating Development Resource Group:  <br/>
+<img src="https://i.imgur.com/InbH4Zm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.3 Creating Security Resource Group:  <br/>
+<img src="https://i.imgur.com/krZUKEw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+5.4 Creating Networking Resource Group:  <br/>
+<img src="https://i.imgur.com/dgihg6Z.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+5.5 Verifying the Resource Groups:  <br/>
+<img src="https://i.imgur.com/LDmSFJk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+6.1 Access Control role assignment for the Finance department on a subscription level:  <br/>
+<img src="https://i.imgur.com/Pf2QJGm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.2 Assign Contributor Role to Development-RG on a subscription level: <br/>
+<img src="https://i.imgur.com/6jEK3LG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.3 Assign Security Administrator Role:  <br/>
+<img src="https://i.imgur.com/lo4HjJM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.4 Creating custom role "VM Security Operator:  <br/>
+<img src="https://i.imgur.com/ClIhCJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.5 Creating custom role "Storage Security Reader":  <br/>
+<img src="https://i.imgur.com/albKoqz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+6.5 Creating custom role "Key Vaults Secrets Officer":  <br/>
+<img src="https://i.imgur.com/fB19Z3m.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+6.6 Assigning custom role to Security Team Department:  <br/>
+<img src="https://i.imgur.com/eWhOFgc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 ---
 
 ### Week 2: Conditional Access and MFA (Security Policies)
 
-**Time**: 5-6 hours over 5 days
 
 **What I did:**
 1. Activated Azure AD Premium P2 (30-day free trial)
@@ -197,10 +275,40 @@ Companies moving to the cloud face these identity security problems:
 - Checked sign-in logs to make sure no real users would be blocked
 - Only enabled policies after confirming they wouldn't break anything
 
-**Files created:**
-- [Week 2 detailed notes](./Week2-Conditional-Access/README.md)
-- [All 4 policy configurations](./Week2-Conditional-Access/policies/)
+<h2>Week 2 Program walk-through:</h2>
 
+<p align="center">
+7. Activating Microsoft Entra IP 2 Free trail: <br/>
+<img src="https://i.imgur.com/dZiWt5d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+8. Creating named location:  <br/>
+<img src="https://i.imgur.com/8MbUHWR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+9. Corporate VPN: <br/>
+<img src="https://i.imgur.com/lPR8fUo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+10. Trusted regions:  <br/>
+<img src="https://i.imgur.com/Yq3tQNI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+11.1 Conditional Access Policy 1:  <br/>
+<img src="https://i.imgur.com/sXculJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+11.2 Signing in as Testuser 003:  <br/>
+<img src="https://i.imgur.com/QplgB0c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+11.3 Confirming sign-in attempt :  <br/>
+<img src="https://i.imgur.com/fAJsizP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   <br />
+ 11.4 enabling conditional policy: <br/>
+<img src="https://i.imgur.com/peHgtax.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+</p>
 ---
 
 ### Week 3: Identity Protection and Self-Service (Advanced Security)
