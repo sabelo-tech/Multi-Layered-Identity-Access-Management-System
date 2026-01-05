@@ -2,7 +2,7 @@
 # Project 1: Multi-Layered Identity & Access Management System
 
 ![Azure AD](https://img.shields.io/badge/Azure%20AD-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Incomplete-success?style=for-the-badge)
 ![Cost](https://img.shields.io/badge/Cost-R0-green?style=for-the-badge)
 
  Enterprise identity and access management solution using Azure AD, RBAC, Conditional Access, and Multi-Factor Authentication
