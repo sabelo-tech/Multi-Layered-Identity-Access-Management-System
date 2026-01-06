@@ -9,7 +9,6 @@
 
 
 
-
 ---
 ## 🎯 Project Overview
 
@@ -297,6 +296,15 @@ Companies moving to the cloud face these identity security problems:
 11.1 Conditional Access Policy 1:  <br/>
 <img src="https://i.imgur.com/sXculJH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+ 
+ #### CA-001: Require MFA for All Users
+- **Status**: Enabled
+- **Users**: All users (except emergencyaccess001)
+- **Apps**: All cloud apps
+- **Control**: Require MFA
+- **Session**: Sign-in every 7 days
+- **Impact**: 100% of users must use MFA
+
 <br />
 11.2 Signing in as Testuser 003:  <br/>
 <img src="https://i.imgur.com/QplgB0c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -307,6 +315,32 @@ Companies moving to the cloud face these identity security problems:
    <br />
  11.4 enabling conditional policy: <br/>
 <img src="https://i.imgur.com/peHgtax.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+12. Creating Untrusted Location Conditional Access Policy: <br/>
+<img src="https://i.imgur.com/941cNRa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+
+#### CA-002: Block Untrusted Locations
+- **Status**: Enabled
+- **Users**: All users (except emergencyaccess001)
+- **Apps**: All cloud apps
+- **Conditions**: Exclude trusted IPs and allowed countries
+- **Control**: Block access
+- **Impact**: Sign-ins only from SA and trusted locations
+
+
+<br />
+13. Creating Compliant Devices Contional Access Policy :  <br/>
+<img src="https://i.imgur.com/Paalshe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+14. Creating Block Legacy Auth Conditional Access Policy:  <br/>
+<img src="https://i.imgur.com/PcFkA19.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+15 Veryfing All Conditional Access Policies Created:  <br/>
+<img src="https://i.imgur.com/9WRjCt0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 </p>
 ---
@@ -341,19 +375,16 @@ Companies moving to the cloud face these identity security problems:
    - KQL queries to search logs for threats
 
 **Key achievement:**
-- Can detect compromised accounts in 15 minutes (was 48 hours)
+- Can detect compromised accounts in 15 minutes
 - Users reset their own passwords (saves 75 help desk tickets per month)
 - Automatic reviews prevent forgotten admin accounts
 
-**Files created:**
-- [Week 3 detailed notes](./Week3-Identity-Protection/README.md)
-- [KQL queries for monitoring](./Week3-Identity-Protection/documentation/monitoring-queries.kql)
 
 ---
-<h2>Program walk-through:</h2>
+<h2>Week 3 Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
+16. Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
