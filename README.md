@@ -384,32 +384,40 @@ Companies moving to the cloud face these identity security problems:
 <h2>Week 3 Program walk-through:</h2>
 
 <p align="center">
-16. Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+16. Identity Protection Dashboard: <br/>
+<img src="https://i.imgur.com/qlopYdf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+17. Creating conditional access policy since user risk policy is being retired:  <br/>
+<img src="https://i.imgur.com/ZiusHnB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+18. User risk condtional access policy: <br/>
+<img src="https://i.imgur.com/RkbAtke.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+19. Sign-in risk condtional access policy:  <br/>
+<img src="https://i.imgur.com/LkesM3F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+20. Risk detections page:  <br/>
+<img src="https://i.imgur.com/6fHDj3M.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+21. Enabling Self-Service Password Reset:  <br/>
+<img src="https://i.imgur.com/DqddJWU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+22. Configuring authentication method:  <br/>
+<img src="https://i.imgur.com/M0ezwA3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+ <br />
+23. Configure Registration Settings:  <br/>
+<img src="https://i.imgur.com/HBBN0m4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+24. Configure Notifications:  <br/>
+<img src="https://i.imgur.com/1bHteXy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
 <!--
